@@ -8,7 +8,7 @@ import { FiCornerDownLeft } from 'react-icons/fi'
 
 import api from 'axios'
 import InputNormal from '../../components/InputNormal'
-import { Container, Content, ModalContent, Title, Line } from './styles'
+import { Container, Content, ModalContent, Title, Line } from '../../styles/pages/Enrollments'
 import { useToast } from '../../hooks/Toast'
 
 interface IEnrollmentsProps {
