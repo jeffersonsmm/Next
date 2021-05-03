@@ -1,7 +1,6 @@
 import Document, { DocumentContext, Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 import Fonts from '@/components/Fonts'
-import Loading from '@/utils/loading'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -42,7 +41,6 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <Loading />
         </body>
       </Html>
     )
